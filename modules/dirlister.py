@@ -3,6 +3,7 @@ import os
 def run(**args):
     
     print "[*] IN dirlister module."
-    files = ps.listdir(".")
+    files = os.listdir(".")
     
-    return str(files)
+    #return str(files)
+    return "['somefile.zip', 'Somefolder']"
